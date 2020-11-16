@@ -11,6 +11,7 @@
     <modules>
         <module>agent-test</module>
         <module>instrument-test</module>
+        <module>byte-buddy-test</module>
     </modules>
 
 

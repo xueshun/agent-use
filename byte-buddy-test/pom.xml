@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>instrument-test</artifactId>
+    <artifactId>byte-buddy-test</artifactId>
     <packaging>jar</packaging>
 
     <dependencies>
@@ -18,6 +18,18 @@
             <artifactId>javassist</artifactId>
             <version>3.12.1.GA</version>
             <type>jar</type>
+        </dependency>
+
+        <dependency>
+            <groupId>net.bytebuddy</groupId>
+            <artifactId>byte-buddy</artifactId>
+            <version>1.5.7</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.bytebuddy</groupId>
+            <artifactId>byte-buddy-agent</artifactId>
+            <version>1.5.7</version>
         </dependency>
     </dependencies>
 
@@ -63,6 +75,8 @@
                     <artifactSet>
                         <includes>
                             <include>javassist:javassist:jar:</include>
+                            <include>net.bytebuddy:byte-buddy:jar:</include>
+                            <include>net.bytebuddy:byte-buddy-agent:jar:</include>
                         </includes>
                     </artifactSet>
                 </configuration>
