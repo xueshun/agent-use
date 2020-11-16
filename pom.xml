@@ -12,6 +12,7 @@
         <module>agent-test</module>
         <module>instrument-test</module>
         <module>byte-buddy-test</module>
+        <module>jvm-hook-test</module>
     </modules>
 
 
