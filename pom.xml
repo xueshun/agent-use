@@ -13,6 +13,7 @@
         <module>instrument-test</module>
         <module>byte-buddy-test</module>
         <module>jvm-hook-test</module>
+        <module>byte-buddy-use</module>
     </modules>
 
 
